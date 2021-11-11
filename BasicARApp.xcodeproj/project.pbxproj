@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF918B82273C9549003E53F8 /* Doll.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BF918B81273C9548003E53F8 /* Doll.usdz */; };
 		BFC5DD782739E29300A0C36F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC5DD772739E29300A0C36F /* AppDelegate.swift */; };
 		BFC5DD7A2739E29300A0C36F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC5DD792739E29300A0C36F /* ViewController.swift */; };
 		BFC5DD7C2739E29300A0C36F /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = BFC5DD7B2739E29300A0C36F /* Experience.rcproject */; };
@@ -15,6 +16,7 @@
 		BFC5DD842739E29500A0C36F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC5DD822739E29500A0C36F /* LaunchScreen.storyboard */; };
 		BFC5DD8F2739E29600A0C36F /* BasicARAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC5DD8E2739E29600A0C36F /* BasicARAppTests.swift */; };
 		BFC5DD9A2739E29600A0C36F /* BasicARAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC5DD992739E29600A0C36F /* BasicARAppUITests.swift */; };
+		BFC5DDA8273A0C8300A0C36F /* Doll.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = BFC5DDA7273A0C8300A0C36F /* Doll.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF918B81273C9548003E53F8 /* Doll.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Doll.usdz; sourceTree = "<group>"; };
 		BFC5DD742739E29300A0C36F /* BasicARApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicARApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC5DD772739E29300A0C36F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFC5DD792739E29300A0C36F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		BFC5DD952739E29600A0C36F /* BasicARAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicARAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC5DD992739E29600A0C36F /* BasicARAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicARAppUITests.swift; sourceTree = "<group>"; };
 		BFC5DD9B2739E29600A0C36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC5DDA7273A0C8300A0C36F /* Doll.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Doll.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,10 @@
 		BFC5DD762739E29300A0C36F /* BasicARApp */ = {
 			isa = PBXGroup;
 			children = (
+				BFC5DDA7273A0C8300A0C36F /* Doll.rcproject */,
 				BFC5DD772739E29300A0C36F /* AppDelegate.swift */,
 				BFC5DD792739E29300A0C36F /* ViewController.swift */,
+				BF918B81273C9548003E53F8 /* Doll.usdz */,
 				BFC5DD7B2739E29300A0C36F /* Experience.rcproject */,
 				BFC5DD7D2739E29300A0C36F /* Main.storyboard */,
 				BFC5DD802739E29500A0C36F /* Assets.xcassets */,
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF918B82273C9549003E53F8 /* Doll.usdz in Resources */,
 				BFC5DD842739E29500A0C36F /* LaunchScreen.storyboard in Resources */,
 				BFC5DD812739E29500A0C36F /* Assets.xcassets in Resources */,
 				BFC5DD7F2739E29300A0C36F /* Main.storyboard in Resources */,
@@ -261,6 +268,7 @@
 				BFC5DD7A2739E29300A0C36F /* ViewController.swift in Sources */,
 				BFC5DD782739E29300A0C36F /* AppDelegate.swift in Sources */,
 				BFC5DD7C2739E29300A0C36F /* Experience.rcproject in Sources */,
+				BFC5DDA8273A0C8300A0C36F /* Doll.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
